@@ -1,0 +1,4 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="status_bar_height">25dp</dimen>
+    <dimen name="swipe_more_height">50</dimen>
+</resources>

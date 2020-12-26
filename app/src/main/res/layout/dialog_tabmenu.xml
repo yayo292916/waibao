@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:zhy="http://schemas.android.com/tools">
+
+    <com.example.administrator.yyqianghongb.view.shapeTvPage.ShapeLinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        app:cornersTopLeftRadius_l="20dp"
+        app:cornersTopRightRadius_l="20dp"
+        app:solidColor_l="#fff"
+        android:layout_height="418dp">
+
+        <RelativeLayout
+            android:layout_marginTop="15dp"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:paddingLeft="4dp"
+                android:paddingRight="4dp"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/xx"/>
+
+            <TextView
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="所有栏目"
+                android:textColor="#ff666666"
+                android:textSize="16sp"
+                />
+
+            <TextView
+                android:visibility="gone"
+                android:layout_centerVertical="true"
+                android:id="@+id/commit"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="完成"
+                android:textColor="#ff333333"
+                android:textSize="14sp"
+                />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="我的栏目"
+                android:textColor="#ff333333"
+                android:textSize="16sp"
+                />
+
+        </LinearLayout>
+
+        <com.zhy.view.flowlayout.TagFlowLayout
+            android:id="@+id/mFlowLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="4dp"
+            zhy:max_select="1" />
+
+
+    </com.example.administrator.yyqianghongb.view.shapeTvPage.ShapeLinearLayout>
+
+</RelativeLayout>

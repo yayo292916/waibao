@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="wrap_content"
+        android:layout_height="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="67dp"
+        android:drawableTop="@drawable/register_logo_kn"
+        android:drawablePadding="11dp"
+        android:gravity="center"
+        android:text="苦难辉煌"
+        android:ellipsize="end"
+        android:textColor="#ff333333"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="63dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="账号"
+                android:textColor="#ff333333"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/id"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:background="@null"
+                android:hint="请输入账号"
+                android:maxEms="100"
+                android:paddingBottom="14dp"
+                android:singleLine="true"
+                android:textColor="#ff333333"
+                android:textColorHint="#999"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/baseLine" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="密码"
+                android:textColor="#ff333333"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/mima"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="22dp"
+                android:background="@null"
+                android:maxEms="100"
+                android:hint="请输入密码"
+                android:inputType="textPassword"
+                android:paddingBottom="14dp"
+                android:singleLine="true"
+                android:textColor="#ff333333"
+                android:textColorHint="#999"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/baseLine" />
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/jizhumima"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="17dp"
+        android:drawableLeft="@drawable/ooed"
+        android:drawablePadding="6dp"
+        android:gravity="center"
+        android:text="记住密码"
+        android:textColor="#ff999999"
+        android:textSize="12sp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.example.administrator.yyqianghongb.view.shapeTvPage.ShapeTextView
+            android:id="@+id/commit"
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginBottom="76dp"
+            android:text="确定"
+            android:textColor="#fff"
+            app:cornersRadius="5dp"
+            app:solidColor="#FFD8D8D8" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+    <com.example.administrator.yyqianghongb.view.YYTitleBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="主页"
+        app:title_color="#000"
+        tools:ignore="MissingConstraints" />
+
+    <com.example.administrator.yyqianghongb.view.SwipeRefreshPage.SwipeRefreshPlus
+        android:id="@+id/swipeRefreshPlus"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler"
+            android:layoutAnimation="@anim/layout_animation_fall_down"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    </com.example.administrator.yyqianghongb.view.SwipeRefreshPage.SwipeRefreshPlus>
+
+</LinearLayout>

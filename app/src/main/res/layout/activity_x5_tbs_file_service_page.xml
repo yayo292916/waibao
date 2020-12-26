@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <com.example.administrator.yyqianghongb.view.YYTitleBar
+        android:id="@+id/bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="">
+
+        <RelativeLayout
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="44dp">
+
+            <ImageView
+                android:id="@+id/collImg"
+                android:layout_marginRight="12dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/particulars_icon_collect_ash" />
+
+        </RelativeLayout>
+
+    </com.example.administrator.yyqianghongb.view.YYTitleBar>
+
+    <RelativeLayout
+        android:id="@+id/X5TbsView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/downTv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="下载中0%"/>
+    </RelativeLayout>
+</LinearLayout>

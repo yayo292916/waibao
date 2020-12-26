@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_marginTop="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#222"
+        android:textStyle="bold"
+        android:text="YY辅助"/>
+
+    <View
+        android:layout_marginBottom="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="#ececec"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="开启辅助平台"
+        android:textColor="#15CC1C"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:padding="20dp"
+            android:layout_width="wrap_content"
+            android:textColor="#222"
+            android:layout_height="wrap_content"
+            android:text="微信"/>
+
+        <Switch
+            android:id="@+id/wxSwitch"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:padding="20dp"
+        android:id="@+id/openNotifi"
+        android:layout_width="wrap_content"
+        android:textColor="#222"
+        android:layout_height="wrap_content"
+        android:text="打开通知栏服务"/>
+
+    <TextView
+        android:padding="20dp"
+        android:id="@+id/openZhufu"
+        android:layout_width="wrap_content"
+        android:textColor="#222"
+        android:layout_height="wrap_content"
+        android:text="打开辅助服务"/>
+
+
+
+</LinearLayout>

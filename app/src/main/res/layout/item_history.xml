@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:clipChildren="false">
+
+    <com.example.administrator.yyqianghongb.view.shapeTvPage.ShapeRelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:clipChildren="false"
+        app:cornersRadius_r="5dp"
+        app:solidColor_r="#FFF6F5F4">
+
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="12dp"
+            android:paddingTop="5dp"
+            android:paddingRight="3dp"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:maxEms="15"
+            android:paddingBottom="5dp"
+            android:text="成都美食"
+            android:textColor="#ff666666"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="-3dp"
+            android:layout_marginRight="-2dp"
+            android:layout_toRightOf="@+id/title"
+            android:src="@drawable/search_icon_cross" />
+
+    </com.example.administrator.yyqianghongb.view.shapeTvPage.ShapeRelativeLayout>
+
+
+</LinearLayout>

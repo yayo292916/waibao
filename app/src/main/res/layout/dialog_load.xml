@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center">
+
+    <com.example.administrator.yyqianghongb.view.shapeTvPage.ShapeLinearLayout
+        android:id="@+id/load_layout"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        app:cornersRadius_l="6dp"
+        app:solidColor_l="#7f000000"
+        android:gravity="center">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <pl.droidsonroids.gif.GifImageView
+                android:id="@+id/jvhua"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:src="@drawable/juhuagif" />
+
+            <TextView
+                android:id="@+id/progress_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="登录中"
+                android:textColor="#ffffffff"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </com.example.administrator.yyqianghongb.view.shapeTvPage.ShapeLinearLayout>
+
+</RelativeLayout>

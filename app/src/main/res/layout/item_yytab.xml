@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipChildren="false"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="20dp"
+        android:clipChildren="false"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_height="match_parent"
+        >
+
+        <RelativeLayout
+            android:clipChildren="false"
+            android:layout_marginRight="-500dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="标题"
+                android:textColor="#333"
+                android:textSize="16sp"/>
+
+            <com.example.administrator.yyqianghongb.view.shapeTvPage.ShapeTextView
+                android:id="@+id/marker"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="12dp"
+                android:minWidth="12dp"
+                android:layout_marginRight="-500dp"
+                android:singleLine="true"
+                android:paddingLeft="2dp"
+                android:paddingRight="2dp"
+                android:text="1"
+                android:layout_toRightOf="@id/title"
+                android:textColor="#fff"
+                android:textSize="8sp"
+                app:cornersRadius="6dp"
+                app:gravity_s="center"
+                app:solidColor="#F55050" />
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
